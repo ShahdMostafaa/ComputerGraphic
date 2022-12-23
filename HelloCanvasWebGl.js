@@ -8,7 +8,7 @@ function main()
         console.log('Fail to render');
         return;
     } 
-    gl.clearColor(0.75, 0.0, 0.25, 1.0);
+    gl.clearColor (0.75 , 0.25 , 0.75 , 1.0);
     gl.clear(gl.COLOR_BUFFER_BIT);
 }
 
